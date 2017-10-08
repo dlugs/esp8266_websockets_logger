@@ -12,4 +12,5 @@ services:
       - "8081"
     ports:
       - "8081:8081"
+    command: "npm install"
     command: "npm start"
