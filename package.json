@@ -2,7 +2,11 @@
   "name": "esp8266websockets",
   "version": "0.0.1",
   "description": "websockets esp8266 server app ",
-  "dependencies": {},
+  "repository": "git@github.com:dlugs/esp8266_websockets_logger.git",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "express": "^4.15.2",
+    "socket.io": "^2.0.3"
+  },
   "start": "node app.js"
-
 }
