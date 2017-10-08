@@ -1,0 +1,8 @@
+{
+  "name": "esp8266websockets",
+  "version": "0.0.1",
+  "description": "websockets esp8266 server app ",
+  "dependencies": {},
+  "start": "node app.js"
+
+}
