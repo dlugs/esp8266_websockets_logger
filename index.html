@@ -25,7 +25,7 @@
       $(function () {
         var socket = io({transports: ['websocket'], upgrade: false});
         $('form').submit(function(){
-          socket.emit('mymessage', $('#m').val());
+          socket.emit('command', $('#m').val());
           $('#m').val('');
           return false;
         });
